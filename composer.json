@@ -1,0 +1,11 @@
+{
+    "require": {
+        "apimatic/unirest-php": "^2.3",
+        "ext-json": "^7.4"
+    },
+    "autoload": {
+        "psr-0": {
+            "Svystunov\\Projectorl3\\": "src"
+        }
+    }
+}

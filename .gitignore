@@ -1,0 +1,5 @@
+auth.json
+vendor/
+composer.lock
+.idea/
+log.log
