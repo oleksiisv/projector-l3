@@ -8,7 +8,6 @@ use Svystunov\Projectorl3\Sender;
 
 $receiver = new Receiver();
 $sender = new Sender();
-//$rate = $receiver->getCurrencyRate();
-$rate = 365686;
+$rate = $receiver->getCurrencyRate();
 
 echo $sender->sendCurrencyRateToGa($rate);
