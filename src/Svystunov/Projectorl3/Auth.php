@@ -13,7 +13,6 @@ class Auth
     public static function getAuthData()
     {
         if (!file_exists(self::FILENAME)) {
-            echo 123; die();
             return false;
         }
 
